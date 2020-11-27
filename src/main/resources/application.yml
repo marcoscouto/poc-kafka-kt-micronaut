@@ -7,7 +7,7 @@ kafka:
     servers: ${KAFKA_SERVER:`localhost:9092`}
 
 timer:
-  producer: ${TIMER_PRODUCER:1m}
+  producer: ${TIMER_PRODUCER:10s}
 
 topic: ${KAFKA_TOPICS:transacoes}
 
