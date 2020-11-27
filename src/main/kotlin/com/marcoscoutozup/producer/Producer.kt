@@ -1,5 +1,6 @@
 package com.marcoscoutozup.producer
 
+import com.marcoscoutozup.dto.TransacaoDto
 import io.micronaut.scheduling.annotation.Scheduled
 import org.slf4j.LoggerFactory
 import java.math.BigDecimal

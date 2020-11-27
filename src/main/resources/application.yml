@@ -4,7 +4,10 @@ micronaut:
 
 kafka:
   bootstrap:
-    servers: localhost:9092
+    servers: ${KAFKA_SERVER:`localhost:9092`}
 
 timer:
-  producer: 1m
+  producer: ${TIMER_PRODUCER:1m}
+
+topic: ${KAFKA_TOPICS:transacoes}
+
